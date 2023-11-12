@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: pink;
+    box-sizing: border-box;
+    
+}
+#box{
+    display: flex;
+    background-color: lightblue;
+    margin-top: 25vh;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#in1{
+    background-color: burlywood;
+    padding: 6px 5px;
+    width: 93%;
+    border-radius: 7px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid black;
+}
+.buttons{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+}
+.buttons button{
+    margin: 2px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px 0px;
+    border-style: none;
+    font-weight: 700;
+}
+.buttons button:hover{
+    background-color: blue;
+    
+}
